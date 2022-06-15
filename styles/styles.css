@@ -1,0 +1,22 @@
+html {
+    box-sizing: border-box;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+    margin: 0;
+  }
+
+  body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .content {
+    flex: 1;
+  }
+
+  .header, .footer{
+    height: 72px;
+  }
