@@ -1,6 +1,6 @@
 html {
     box-sizing: border-box;
-    font-family: "Roboto", Courier, monospace;
+    font-family: 'Roboto', sans-serif;
   }
   *, *:before, *:after {
     box-sizing: inherit;
@@ -30,9 +30,7 @@ html {
     color: #f9faf8;
   }
 
-  .content {
-    flex: 1;
-  }
+
 
   .header{
     display: flex;
@@ -47,4 +45,21 @@ html {
   .header-links {
     display: flex;
     gap: 12px;
+  }
+
+  .content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .intro, .info, .quote, .CTA {
+    display: flex;
+    flex: 1;
+  }
+
+  .footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
