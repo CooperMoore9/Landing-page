@@ -1,5 +1,6 @@
 html {
     box-sizing: border-box;
+    font-family: "Roboto", Courier, monospace;
   }
   *, *:before, *:after {
     box-sizing: inherit;
@@ -13,10 +14,37 @@ html {
     justify-content: space-between;
   }
 
-  .content {
-    flex: 1;
+  a {
+    text-decoration: none;
+    color: #e5e7eb;
+  }
+
+  .header, .content, .footer {
+    padding-left: 256px;
+    padding-right: 256px;
   }
 
   .header, .footer{
     height: 72px;
+    background-color: #1f2937;
+    color: #f9faf8;
+  }
+
+  .content {
+    flex: 1;
+  }
+
+  .header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .header-logo {
+    font-size: 24px;
+  }
+
+  .header-links {
+    display: flex;
+    gap: 12px;
   }
