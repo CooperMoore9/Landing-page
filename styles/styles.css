@@ -9,6 +9,7 @@ html {
 
   body {
     display: flex;
+    flex: 1;
     min-height: 100vh;
     flex-direction: column;
     justify-content: space-between;
@@ -19,15 +20,12 @@ html {
     color: #e5e7eb;
   }
 
-  .header, .content, .footer {
-    padding-left: 256px;
-    padding-right: 256px;
-  }
-
   .header, .footer{
     height: 72px;
     background-color: #1f2937;
     color: #f9faf8;
+    padding-left: 300px;
+    padding-right: 300px;
   }
 
 
@@ -51,15 +49,59 @@ html {
     flex: 1;
     display: flex;
     flex-direction: column;
+    height: auto;
   }
 
   .intro, .info, .quote, .CTA {
+    padding-left: 300px;
+    padding-right: 300px;
     display: flex;
-    flex: 1;
+    flex: 1 0 auto;
+
+  }
+
+  .intro {
+    background-color: #1f2937;
+    color: #f9faf8;
+    display: flex;
+    padding-top: 64px; 
+  }
+
+  .intro-text, .intro-img {
+    width: 50%;
+  }
+
+  .intro-text {
+    font-size: 48px;
+  }
+
+  .intro-text .intro-sub {
+    font-size: 18px;
+  }
+   
+  .intro-img {
+    display: flex;
+    justify-content: flex-end;
   }
 
   .footer {
     display: flex;
     justify-content: center;
     align-items: center;
+  }
+
+  button {
+    border-radius: 12px;
+    width: 100px;
+    padding: 6px;
+  }
+  
+  .sign-up {
+    background-color: #3882f6;
+    color: #e5e7eb;
+  }
+
+  img {
+    max-height: 256px;
+    aspect-ratio: 16/9;
   }
