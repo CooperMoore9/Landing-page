@@ -24,8 +24,8 @@ html {
     height: 72px;
     background-color: #1f2937;
     color: #f9faf8;
-    padding-left: 300px;
-    padding-right: 300px;
+    padding-left: 150px;
+    padding-right: 150px;
   }
 
   .header{
@@ -51,11 +51,13 @@ html {
   }
 
   .intro, .info, .quote, .CTA {
-    padding-left: 300px;
-    padding-right: 300px;
+    padding-left: 150px;
+    padding-right: 150px;
     display: flex;
     flex: 1 0 auto;
     align-items: center;
+    padding-top: 24px; 
+    padding-bottom: 24px;
 
   }
 
@@ -63,7 +65,7 @@ html {
     background-color: #1f2937;
     color: #f9faf8;
     display: flex;
-    padding-top: 32px; 
+
     justify-content: space-between;
   }
 
@@ -101,4 +103,107 @@ html {
   img {
     max-height: 256px;
     aspect-ratio: 16/9;
+  }
+
+  .info {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .info-big-text {
+    color: #1f2937;
+    font-size: 36px;
+    margin-bottom: 24px;
+  }
+
+  .info-boxes {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+
+  }
+
+  .box-text-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .box-text {
+    padding: 8px;
+    width: 150px;
+  }
+
+  .box {
+    border-style: solid;
+    border-color: #3882f6;
+    border-radius: 12px;
+    height: 150px;
+    width: 150px;
+
+  } 
+
+  .quote {
+    display: flex;
+    flex-direction: column;
+    background-color: #e5e7eb;
+    padding-left: 500px;
+    padding-right: 500px;
+  }
+
+  .the-quote {
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+  }
+
+  .person {
+    align-self: flex-end;
+    color: #1f2937;
+    font-weight: 700;
+    font-size: 24px; 
+  }
+
+  .CTA {
+    justify-content: center;
+    padding-left: 300px;
+    padding-right: 300px;
+  }
+
+  .cta-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #3882f6;
+    width: 1000px;
+    border-radius: 12px;
+    height: 100px;
+  }
+
+  .cta-text {
+    display: flex;
+    flex-direction: column;
+    color: #f9faf8;
+    padding-top: 12px;
+    padding-bottom: 12px;
+  }
+
+  .cta-top {
+    font-weight: 900;
+    font-size: 18px;
+  }
+
+  .cta-bottom {
+
+  }
+
+  .cta-button {
+    border-radius: 12px;
+    border-color: #e5e7eb;
+    border-style: solid;
+    height: 31px;
+    width: 100px;
+    padding: 6px;
+    color: #e5e7eb;
+    background-color: #3882f6;
   }
