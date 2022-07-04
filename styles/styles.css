@@ -158,8 +158,7 @@ html {
   .quote {
     display: flex;
     flex-direction: column;
-    max-width: 75vw;
-  }
+
 
   .the-quote {
     font-size: 36px;
