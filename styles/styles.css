@@ -132,6 +132,7 @@ html {
   .box-text {
     padding: 8px;
     width: 150px;
+    text-align: center;
   }
 
   .box {
